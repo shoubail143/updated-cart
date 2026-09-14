@@ -28,9 +28,7 @@ function App() {
     </>
 =======
 import React, { useState } from "react";
-import Card from "./components/card.jsx";
-import keyboard from "./assets/keyboard.jpg";
-import earbuds from "./assets/earbuds.jpg";
+ 
 import rgbmouse from "./assets/rgbmouse.jpg";
 
 const products = [

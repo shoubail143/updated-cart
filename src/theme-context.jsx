@@ -1,8 +1,7 @@
-import { createContext, useState } from "react"; // Make sure this is imported!
+import { createContext, useState } from "react";
 
 const ThemeContext = createContext();
 
-// Just define it like a normal component
 const ThemeProvider = ({ children }) => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
