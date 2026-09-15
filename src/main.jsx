@@ -1,5 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+<<<<<<< HEAD
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import Header from "./components/Common/Header";
@@ -20,5 +21,16 @@ createRoot(document.getElementById("root")).render(
       </Routes>
       <Footer />
     </BrowserRouter>
+=======
+import "./index.css";
+import App from "./App.jsx";
+import ThemeProvider from "./theme-context.jsx";
+
+createRoot(document.getElementById("root")).render(
+  <StrictMode>
+    <ThemeProvider>
+      <App />
+    </ThemeProvider>
+>>>>>>> 9dab25fb0d1547fe049082a4c74741d86a7f37d5
   </StrictMode>,
 );
