@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="sticky z-50 top-0px bg-white w-full ml-0">
-      <div className="flex max-w-7xl px-8 mx-auto p-10 gap-200 mt-0 ">
+    <nav className="sticky z-50 top-0 bg-white w-full ml-0">
+      <div className="flex justify-between max-w-7xl  px-8 mx-auto p-10 mt-0 ">
         <img src={blog} alt="blog" className="w-35 h-35 mt-0" />
         <div className="flex items-center gap-7">
           <Link
