@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 import React, { useState, useEffect } from "react";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Footer from "./Footer";
 import Card from "./Card";
+=======
+import React from "react";
+import { useState, useEffect } from "react";
+>>>>>>> e44c1ddb99992056e6e2ff619eb304b1cd021b42
 
 const Home = () => {
   const [posts, setPosts] = useState([]);
@@ -22,6 +27,7 @@ const Home = () => {
     getposts();
   }, []);
   return (
+<<<<<<< HEAD
     <>
       <Navbar />
       <Hero />
@@ -37,6 +43,17 @@ const Home = () => {
       </section>
       <Footer />
     </>
+=======
+    <div>
+      {posts.map((post) => (
+        <div key={post.id}>
+          <h1>{post.id}</h1>
+          <h2>{post.title}</h2>
+          <h3>{post.body}</h3>
+        </div>
+      ))}
+    </div>
+>>>>>>> e44c1ddb99992056e6e2ff619eb304b1cd021b42
   );
 };
 

@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "my-project",
+=======
+  "name": "react-prac",
+>>>>>>> e44c1ddb99992056e6e2ff619eb304b1cd021b42
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,11 +14,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@tailwindcss/vite": "^4.3.3",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "react-router-dom": "^7.18.4",
     "tailwindcss": "^4.3.3"
+=======
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-router-dom": "^7.18.4"
+>>>>>>> e44c1ddb99992056e6e2ff619eb304b1cd021b42
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
